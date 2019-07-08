@@ -1,9 +1,9 @@
-package com.gsralex.gflow.core.rpc.server;
+package com.gsralex.gflow.core.rpc.netty.server;
 
-import com.gsralex.gflow.core.rpc.protocol.GenericDecoder;
-import com.gsralex.gflow.core.rpc.protocol.RpcReq;
-import com.gsralex.gflow.core.rpc.protocol.RpcResp;
-import com.gsralex.gflow.core.rpc.protocol.GenericEncoder;
+import com.gsralex.gflow.core.rpc.netty.protocol.GenericDecoder;
+import com.gsralex.gflow.core.rpc.netty.protocol.RpcReq;
+import com.gsralex.gflow.core.rpc.netty.protocol.RpcResp;
+import com.gsralex.gflow.core.rpc.netty.protocol.GenericEncoder;
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.ChannelFuture;
 import io.netty.channel.ChannelInitializer;
@@ -31,7 +31,7 @@ public class RpcServer {
         handlerCache.registerHandler(clazz, impl);
     }
 
-    public boolean start(int port) throws InterruptedException {
+    public boolean start(int port)  {
         final boolean[] connected = {false};
         new Thread(new Runnable() {
             @Override
@@ -70,7 +70,7 @@ public class RpcServer {
                 }
             }
         }).start();
-        latch.await();
+//        latch.await(10000, TimeUnit.MILLISECONDS);
         return connected[0];
     }
 

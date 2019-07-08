@@ -1,4 +1,4 @@
-package com.gsralex.gflow.core.rpc.client;
+package com.gsralex.gflow.core.rpc.netty.client;
 
 import java.lang.reflect.Proxy;
 import java.net.InetSocketAddress;

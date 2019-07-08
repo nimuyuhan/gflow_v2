@@ -1,7 +1,7 @@
-package com.gsralex.gflow.core.rpc.server;
+package com.gsralex.gflow.core.rpc.netty.server;
 
-import com.gsralex.gflow.core.rpc.protocol.RpcReq;
-import com.gsralex.gflow.core.rpc.protocol.RpcResp;
+import com.gsralex.gflow.core.rpc.netty.protocol.RpcReq;
+import com.gsralex.gflow.core.rpc.netty.protocol.RpcResp;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.SimpleChannelInboundHandler;
 import org.slf4j.Logger;

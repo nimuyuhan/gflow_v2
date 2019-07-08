@@ -1,4 +1,4 @@
-package com.gsralex.gflow.core.rpc.client;
+package com.gsralex.gflow.core.rpc.netty.client;
 
 import io.netty.channel.EventLoopGroup;
 

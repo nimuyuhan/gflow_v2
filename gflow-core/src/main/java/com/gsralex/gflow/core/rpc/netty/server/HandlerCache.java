@@ -1,4 +1,4 @@
-package com.gsralex.gflow.core.rpc.server;
+package com.gsralex.gflow.core.rpc.netty.server;
 
 import java.lang.reflect.Method;
 import java.util.ArrayList;

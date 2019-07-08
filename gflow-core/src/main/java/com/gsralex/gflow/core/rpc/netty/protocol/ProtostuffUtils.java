@@ -1,4 +1,4 @@
-package com.gsralex.gflow.core.rpc.protocol;
+package com.gsralex.gflow.core.rpc.netty.protocol;
 
 import io.protostuff.LinkedBuffer;
 import io.protostuff.ProtostuffIOUtil;
