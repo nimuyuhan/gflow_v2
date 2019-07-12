@@ -10,10 +10,10 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>gflow-scheduler</module>
-        <module>gflow-core</module>
         <module>gflow-executor</module>
         <module>gflow-schedulerclient</module>
         <module>gflow-executorclient</module>
+        <module>gflow-rpc</module>
     </modules>
 
     <properties>
