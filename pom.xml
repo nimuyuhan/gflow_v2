@@ -11,9 +11,8 @@
     <modules>
         <module>gflow-scheduler</module>
         <module>gflow-executor</module>
-        <module>gflow-schedulerclient</module>
-        <module>gflow-executorclient</module>
         <module>gflow-rpc</module>
+        <module>gflow-client</module>
     </modules>
 
     <properties>
