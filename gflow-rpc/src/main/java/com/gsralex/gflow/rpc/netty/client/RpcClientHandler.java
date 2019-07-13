@@ -1,7 +1,7 @@
 package com.gsralex.gflow.rpc.netty.client;
 
-import com.gsralex.gflow.core.rpc.netty.protocol.RpcReq;
-import com.gsralex.gflow.core.rpc.netty.protocol.RpcResp;
+import com.gsralex.gflow.rpc.netty.protocol.RpcReq;
+import com.gsralex.gflow.rpc.netty.protocol.RpcResp;
 import io.netty.buffer.Unpooled;
 import io.netty.channel.Channel;
 import io.netty.channel.ChannelFutureListener;

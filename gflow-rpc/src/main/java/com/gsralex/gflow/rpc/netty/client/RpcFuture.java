@@ -1,6 +1,7 @@
 package com.gsralex.gflow.rpc.netty.client;
 
-import com.gsralex.gflow.core.rpc.netty.protocol.RpcResp;
+
+import com.gsralex.gflow.rpc.netty.protocol.RpcResp;
 
 import java.util.concurrent.Future;
 import java.util.concurrent.TimeUnit;

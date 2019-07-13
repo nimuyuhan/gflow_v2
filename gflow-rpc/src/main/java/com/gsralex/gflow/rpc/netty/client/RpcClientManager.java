@@ -1,9 +1,9 @@
 package com.gsralex.gflow.rpc.netty.client;
 
-import com.gsralex.gflow.core.rpc.netty.protocol.GenericDecoder;
-import com.gsralex.gflow.core.rpc.netty.protocol.RpcReq;
-import com.gsralex.gflow.core.rpc.netty.protocol.RpcResp;
-import com.gsralex.gflow.core.rpc.netty.protocol.GenericEncoder;
+import com.gsralex.gflow.rpc.netty.protocol.GenericDecoder;
+import com.gsralex.gflow.rpc.netty.protocol.GenericEncoder;
+import com.gsralex.gflow.rpc.netty.protocol.RpcReq;
+import com.gsralex.gflow.rpc.netty.protocol.RpcResp;
 import io.netty.bootstrap.Bootstrap;
 import io.netty.channel.*;
 import io.netty.channel.nio.NioEventLoopGroup;

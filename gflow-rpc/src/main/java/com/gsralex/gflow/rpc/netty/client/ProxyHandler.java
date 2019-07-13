@@ -1,6 +1,7 @@
 package com.gsralex.gflow.rpc.netty.client;
 
-import com.gsralex.gflow.core.rpc.netty.protocol.RpcReq;
+
+import com.gsralex.gflow.rpc.netty.protocol.RpcReq;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;

@@ -13,7 +13,7 @@
     <dependencies>
         <dependency>
             <groupId>com.gsralex.gflow</groupId>
-            <artifactId>gflow-core</artifactId>
+            <artifactId>gflow-rpc</artifactId>
             <version>1.0-SNAPSHOT</version>
             <scope>compile</scope>
         </dependency>

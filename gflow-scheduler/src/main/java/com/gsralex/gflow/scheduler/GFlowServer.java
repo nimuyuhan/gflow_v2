@@ -1,6 +1,6 @@
 package com.gsralex.gflow.scheduler;
 
-import com.gsralex.gflow.core.rpc.netty.server.RpcServer;
+import com.gsralex.gflow.rpc.netty.server.RpcServer;
 import com.gsralex.gflow.scheduler.util.PropertyUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -43,7 +43,7 @@ public class GFlowServer {
     }
 
     public void start() {
-
+//        startRpc();
     }
 
     public void startRpc() throws InterruptedException {
